@@ -1,63 +1,74 @@
-# Day 1 Practice: 
+# Day 1 Practice — Data Science Journey
 
-**Python Loops, Lists & Employees Data Analysis**
+This repository contains my Day 1 practice work as part of my transition into Data Science. I practiced working with **Python, Excel, Power BI, and SQL**, and completed a small data analysis project.
 
-This repository contains my practice work for Day 1 of my Data Science learning journey. It includes Python exercises and a mini data analysis project on employee data.
+---
+
+## ✅ What I Practiced
+
+### Excel (`insurance.xlsx`)
+- Total and average calculations
+- Conditional columns (High/Low Cost)
+- Filtering and counts on customer attributes
+
+---
+
+### Power BI (`insurance.xlsx`)
+- Imported data and created:
+  - Bar chart of charges by region
+  - Pie chart of smoker distribution
+  - Table of average BMI by gender
+  - Slicer for filtering by number of children
+
+---
+
+### SQL (`employees.csv`)
+- Basic SELECT queries
+- Filtering by department and salary
+- Distinct values
+- Pattern matching on names
+- Combined filters on manager and department
+
+---
+
+### Python
+- Loops and list operations
+- Mini data analysis project:
+  - Loaded `employees.csv`
+  - Calculated average salary
+  - Filtered by department
+  - Bar chart of employee counts
 
 ---
 
 ## ✅ Files Included
 
-- `Day_1_Practise_List&Loops_employees_analysis.ipynb`  
-    → Jupyter notebook covering:
-    - Python loops and lists practice
-    - Summing numbers
-    - Working with random lists
-    - Conditional logic
-    - Loading and analyzing employee data with Pandas
-    - Calculating average salary
-    - Filtering IT department records
-    - Plotting employee counts by department
-
-- `employees.csv`  
-    → Dataset containing employee details used for analysis in the notebook.
+- Jupyter notebook:
+  - `Day_1_Practise_List&Loops_employees_analysis.ipynb`
+- Data files:
+  - `employees.csv`
+  - `insurance.xlsx`
+  - `insurance_practise.xlsx`
+- SQL script:
+  - `employees_practice.sql`
 
 ---
 
-## ✅ Tools Used
+## ✅ How to Run
 
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-
----
-
-## ✅ How to Run This Project
-
-1. Clone this repository:
-    ```
+1. Clone the repository:
+    ```bash
     git clone https://github.com/SuparnaPeddireddy/Day-1-Practice.git
     ```
 
-2. Install required packages:
-    ```
+2. Install Python packages:
+    ```bash
     pip install pandas matplotlib
     ```
 
-3. Open the Jupyter notebook:
+3. Open the notebook:
+    ```bash
+    jupyter notebook Python_Practice/Day_1_Practise_List&Loops_employees_analysis.ipynb
     ```
-    jupyter notebook Day_1_Practise_List&Loops_employees_analysis.ipynb
-    ```
 
-Run the cells to view outputs and plots.
-
-## ✅ Excel Practice
-
-Performed exercises on `insurance_practice.xlsx`:
-
-- Calculated total charges
-- Found average age for charges > 20,000
-- Counted customers with 2 children
-- Created High/Low cost category column
-- Counted male smokers with BMI > 30
+---
