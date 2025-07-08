@@ -1,0 +1,7 @@
+use dspractise;
+select * from employees;
+select * from employees where department_id =5; 
+select first_name,last_name,salary from employees where salary > 15000;
+select distinct(job_id) from employees;
+select first_name,last_name  from employees where last_name like "K%";
+select * from employees where manager_id = 100 and department_id = 9;
