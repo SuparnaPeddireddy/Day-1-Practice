@@ -1,4 +1,6 @@
-# Day 1 Practice: Python Loops, Lists & Employees Data Analysis
+# Day 1 Practice: 
+
+**Python Loops, Lists & Employees Data Analysis**
 
 This repository contains my practice work for Day 1 of my Data Science learning journey. It includes Python exercises and a mini data analysis project on employee data.
 
@@ -49,3 +51,13 @@ This repository contains my practice work for Day 1 of my Data Science learning 
     ```
 
 Run the cells to view outputs and plots.
+
+## ✅ Excel Practice
+
+Performed exercises on `insurance_practice.xlsx`:
+
+- Calculated total charges
+- Found average age for charges > 20,000
+- Counted customers with 2 children
+- Created High/Low cost category column
+- Counted male smokers with BMI > 30
